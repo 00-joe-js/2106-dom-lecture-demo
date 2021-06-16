@@ -1,0 +1,11 @@
+{
+  "name": "2106-dom-lecture-demo",
+  "version": "1.0.0",
+  "author": "Joe Alves",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}

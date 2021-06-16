@@ -1,0 +1,42 @@
+html, body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+body.mmm {
+    transition: 0.5s background linear;
+    background: rgba(172, 202, 223, 0.582);
+}
+
+header {
+    font-size: 3rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#gallery {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#gallery img {
+    width: 150px;
+}
+
+#truth-bomb {
+    position: fixed;
+    top: 5px; /* away from the top of the window */
+    right: 20px; /* away from the right of the window */
+    font-size: 10px;
+    font-family: Arial;
+    color: #555;
+}
