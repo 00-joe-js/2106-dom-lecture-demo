@@ -17,7 +17,6 @@ header {
 
 #gallery {
     background: rgba(255, 255, 255, 0.2);
-    padding: 0.5rem;
     width: 800px;
     margin: 0 auto;
 }
@@ -39,4 +38,12 @@ header {
     font-size: 10px;
     font-family: Arial;
     color: #555;
+}
+
+.some-padding {
+    padding: 0.5rem;
+}
+
+.lots-of-padding {
+    padding: 50px;
 }
